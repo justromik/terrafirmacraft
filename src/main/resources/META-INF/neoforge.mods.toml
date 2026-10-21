@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="tfc_horse_chests"
+version="1.0.0"
+displayName="TFC Horse Chests"
+description='''15-slot chest storage for TerraFirmaCraft horses. No custom textures.'''
+[[dependencies.tfc_horse_chests]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.234,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.tfc_horse_chests]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.tfc_horse_chests]]
+modId="tfc"
+type="required"
+versionRange="[4.0.0,5.0.0)"
+ordering="AFTER"
+side="BOTH"
+[[mixins]]
+config="tfc_horse_chests.mixins.json"
